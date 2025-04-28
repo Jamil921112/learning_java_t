@@ -1,0 +1,105 @@
+{
+	"info": {
+		"_postman_id": "aabef71e-99c7-4b47-9e58-edf892cf2d45",
+		"name": "project #2 - Open Cart Registration",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43200665",
+		"_collection_link": "https://www.postman.com/jamil9211/workspace/atbx/collection/43200665-aabef71e-99c7-4b47-9e58-edf892cf2d45?action=share&source=collection_link&creator=43200665"
+	},
+	"item": [
+		{
+			"name": "Create Account APIs",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "Referer",
+						"value": "https://awesomeqa.com/ui/index.php?route=account/account"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Brave\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					}
+				],
+				"url": {
+					"raw": "https://awesomeqa.com/ui/catalog/view/javascript/bootstrap/js/bootstrap.min.js",
+					"protocol": "https",
+					"host": [
+						"awesomeqa",
+						"com"
+					],
+					"path": [
+						"ui",
+						"catalog",
+						"view",
+						"javascript",
+						"bootstrap",
+						"js",
+						"bootstrap.min.js"
+					]
+				},
+				"description": "Generated from cURL: curl 'https://awesomeqa.com/ui/catalog/view/javascript/bootstrap/js/bootstrap.min.js' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=account/account' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua: \"Brave\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0'"
+			},
+			"response": []
+		},
+		{
+			"name": "Options (Not Implemented)",
+			"request": {
+				"method": "OPTIONS",
+				"header": [
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "Referer",
+						"value": "https://awesomeqa.com/ui/index.php?route=account/account"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Brave\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					}
+				],
+				"url": {
+					"raw": "https://awesomeqa.com/ui/catalog/view/javascript/bootstrap/js/bootstrap.min.js",
+					"protocol": "https",
+					"host": [
+						"awesomeqa",
+						"com"
+					],
+					"path": [
+						"ui",
+						"catalog",
+						"view",
+						"javascript",
+						"bootstrap",
+						"js",
+						"bootstrap.min.js"
+					]
+				},
+				"description": "Generated from cURL: curl 'https://awesomeqa.com/ui/catalog/view/javascript/bootstrap/js/bootstrap.min.js' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=account/account' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua: \"Brave\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0'"
+			},
+			"response": []
+		}
+	]
+}
